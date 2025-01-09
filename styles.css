@@ -1,0 +1,99 @@
+ /* Universal selector */
+
+ /* *{
+    background-color: aqua;
+} */
+/* Element selector */
+h2{
+    color: green;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* class selector*/
+
+.blueColor{
+    color: blue;
+}
+
+.blueRightAline{
+    color: blue;
+    text-align: right;
+}
+ /*ID Selector*/
+
+#redText{
+    color: red;
+}
+
+/* Group selector */
+h4,h5,p{
+    color: mediumvioletred;
+}
+
+.bgBox{
+   height: 900px; 
+   background-color: antiquewhite; 
+   background-image: url("https://captainbinary.com/build/assets/gradient-desktop-b03ebaa2.webp");
+   background-position: center top;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.bdBox2{
+    background-image: url("./image/image.jpg");
+}
+
+.box1{
+    height: 300px;
+    width: 300px;
+    background-color: #D84040;
+    border-style: solid;
+    border-width: 10px;
+    border-color: yellow;
+    border-radius: 50%;
+    float: right;
+
+}
+
+.box2{
+    height: 400px;
+    width: 450px;
+    background-color: #FFF6B3;
+    border: 8px solid green;
+    border-radius: 10px 20px 40px 50px;
+    cursor: move;
+
+}
+
+.box3{
+    height: 500px;
+    width: 550px;
+    background-color: #809D3C;
+    border: 8px solid red;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 20%;
+    cursor: pointer;
+    float: right;
+    
+}
+
+.gbGreen{
+    background-color: green;
+    font-size: 20px;
+
+}
+
+.displayInline{
+    display: inline;
+}
+
+.displayNone{
+    display: none;
+
+}
+
+.displayBlock{
+    display: block;
+
+}
